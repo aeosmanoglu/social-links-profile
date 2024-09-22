@@ -563,7 +563,7 @@ button{
   justify-content: center;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
   padding: 0.75rem;
   font-weight: 700;
   line-height: 150%;
@@ -575,7 +575,7 @@ button:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(196 248 42 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
 .flex{
@@ -596,18 +596,6 @@ button:hover{
 
 .w-full{
   width: 100%;
-}
-
-.w-\[384px\]{
-  width: 384px;
-}
-
-.min-w-\[327px\]{
-  min-width: 327px;
-}
-
-.max-w-\[384px\]{
-  max-width: 384px;
 }
 
 .max-w-\[456px\]{
@@ -648,12 +636,12 @@ button:hover{
 
 .bg-gray-800{
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 
 .bg-gray-900{
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
 }
 
 .p-0{
@@ -704,30 +692,8 @@ button:hover{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px){
-  .sm\:w-\[384px\]{
-    width: 384px;
-  }
-
-  .sm\:min-w-\[456px\]{
-    min-width: 456px;
-  }
-}
-
 @media (min-width: 768px){
-  .md\:min-w-\[327px\]{
-    min-width: 327px;
-  }
-
-  .md\:min-w-\[384px\]{
-    min-width: 384px;
-  }
-
   .md\:max-w-\[384px\]{
     max-width: 384px;
-  }
-
-  .md\:p-0{
-    padding: 0px;
   }
 }
