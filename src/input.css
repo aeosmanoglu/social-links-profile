@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    button {
+        @apply flex flex-row justify-center p-3 font-bold leading-[150%] rounded-lg text-white bg-gray-700 w-full;
+    }
+
+    button:hover {
+        @apply text-gray-700 bg-primary;
+    }
+}
